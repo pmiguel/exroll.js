@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+	<title>ScrollController</title>
+	<style rel="stylesheet">
+		.btncont {
+			background-color: #C3D3C3;
+			height: 45px;
+			width: 600px;
+		}
+		#divcontainer {
+			height: 400px;
+			width: 600px;
+			overflow: scroll;
+			background-color: #D1D1D1;
+		}
+	</style>
+	<script src="https://code.jquery.com/jquery-2.1.3.js"></script>
+	<script src="js/jquery.exroll.js"></script>
+	<script src="js/utility.js"></script>
+
+</head>
+<body>
+	<header>Scrollbar Controller</header>
+	<div class="btncont">
+		<button id="append">Append</button>
+		<button id="prepend">Prepend</button>
+		<button id="grow">Grow</button>
+		<button id="shrink">Shrink</button>
+		<button id="clear">Clear</button>
+	</div>
+	<div id="divcontainer" class="container"></div>
+
+</body>
+</html>
